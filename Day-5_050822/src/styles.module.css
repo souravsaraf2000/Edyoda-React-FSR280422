@@ -1,0 +1,21 @@
+.productGrid{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    border: 1px solid lightcoral;
+    padding: 5px;
+}
+
+
+.productImage{
+    width: 250px;
+}
+
+.productCard{
+    margin: 10px 15px;
+    width: calc(33% - 45px);
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    border-radius: 8px;
+}
