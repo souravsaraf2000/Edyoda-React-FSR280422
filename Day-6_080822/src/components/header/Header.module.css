@@ -1,0 +1,19 @@
+.headerContainer{
+    background-color: #333;
+    width: 100%
+}
+
+.menuContainer{
+    display: flex;
+}
+
+.menuItems{
+    color: #fff;
+    padding: 20px;
+    font-size: 18px;
+}
+
+.menuItems:hover{
+    cursor: pointer;
+    background-color: #000;
+}
