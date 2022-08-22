@@ -1,0 +1,54 @@
+.searchContainer{
+    width: 80%;
+    margin: 30px auto 0 auto;
+}
+
+.searchBox{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+}
+
+.error{
+    text-align: center;
+    color: white;
+    padding-top: 10px;
+    margin: 0;
+}
+
+.moviesWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.moviesCard{
+    height: 280px;
+    width: calc(18% - 22px);
+    margin: 10px;
+}
+
+.poster{
+    height: 90%;
+    width: 100%;
+}
+
+.moviesTitle{
+    background-color: #1e2931;
+    color: white;
+    box-shadow: 0 0 1em rgba(0,0,0,0.3);
+}
+
+.moviesTitle p{
+    margin: 0;
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.moviesCard:hover{
+    cursor: pointer;
+}
